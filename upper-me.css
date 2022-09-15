@@ -1,0 +1,179 @@
+.mid {
+  display: grid;
+  grid-template-columns: 480px 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.background-info {
+  padding-left: 30px;
+}
+
+.fix {
+  background-color: #040c21;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 95px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 211, 211);
+}
+.fixedd {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-left:70px;
+}
+.logo {
+  width: 90px;
+}
+.logo-image {
+  border: solid;
+  width: 65px;
+  border-radius: 45px;
+  padding: 2px;
+}
+.logo-name {
+  flex: 1;
+  font-family: 'Arizonia', cursive;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.lins {
+  flex: 1;
+  padding-right: 50px;
+}
+.link:hover{
+  font-size: 15px;
+  transition: 0.15s;
+  color: #41e9e0;
+}
+.link:hover:active {
+  opacity: 0.4;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+li {
+  font-weight: 600;
+  text-align: center;
+  border: solid;
+  border-radius: 200px;
+  letter-spacing: 0.5px;
+  padding: 12px 25px;
+  margin-right: 20px;
+  color: white;
+}
+
+.upper {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.upper-1 {
+  padding-right: 40px;
+}
+.hello-im {
+  padding-top: 50px;
+}
+.hello {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+.im {
+  font-size: 70px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-image: linear-gradient(270deg,#41e9e0, #65a3ff 70%, #dd3fc5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.bs {
+  font-size: 20px;
+  font-weight: 700;
+}
+.motto {
+  font-size: 18px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+.good-day, .about-me {
+  text-align: center;
+  font-size: 18px;
+}
+.educ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  column-gap: 15px;
+}
+
+.school-year {
+  font-size: 21px;
+  margin-top: 10px;
+}
+.details {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+.personal-info {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table-1,
+.table-2{
+  padding-left: 150px;
+  font-size: 17px;
+  display: inline-block;
+}
+.rr {
+  width: 460px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.full-name {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.hobby {
+  background-image: linear-gradient(270deg,#41e9e0, #65a3ff 20%, #dd3fc5);
+  border: solid;
+  border-color: white;
+}
+.hobi {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hobby-icon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+.sleep {
+  width: 100px;
+}
+.code {
+  padding-top: 20px;
+  width: 100px;
+}
+.hobbies-size {
+  font-size: 20px;
+  font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

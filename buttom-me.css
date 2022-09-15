@@ -1,0 +1,97 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: #040c21;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: aliceblue;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-me {
+  padding-left: 70px;
+}
+
+.concer {
+  font-weight: bold;
+  font-size: 20px;
+}
+.lets {
+  font-weight: bold;
+  font-size: 33px;
+}
+.mail, .phone {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+.follow {
+  font-weight: bold;
+  font-size: 17px;
+  width: 170px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
+  padding-top: 10px;
+  font-size: 45px;
+  margin-right: 20px;
+  margin-left:20px;
+}
+.facebook-icon:hover,
+.instagram-icon:hover,
+.twitter-icon:hover {
+  font-size: 50px;
+  color: #41e9e0;
+  transition: 0.15s;
+}
+.facebook-icon:hover:active,
+.instagram-icon:hover:active,
+.twitter-icon:hover:active {
+  opacity: 0.3;
+}
+
+.right-me {
+  padding-left: 70px;
+}
+
+.let-me {
+  font-size: 20px;
+  font-weight: 700;
+}
+.write {
+  width: 350px;
+  height: 130px;
+}
+
+.sends {
+  display: grid;
+  grid-template-columns: 50px 200px 100px;
+}
+.clip {
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.attachment {
+  font-weight: 600;
+}
+.send {
+  margin-top: 5px;
+}
+.send:hover {
+  background-color: black;
+  color: white;
+  transition: 0.10s;
+}
+.send:hover:active {
+  opacity: 0.3;
+}
